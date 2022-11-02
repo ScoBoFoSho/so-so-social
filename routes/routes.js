@@ -1,8 +1,8 @@
 const router = require("express").Router();
-const {getThoughts, getSingleThought, createThought, deleteThought, updateThought} = require('../../controllers/thought-controller');
-const {createReaction, deleteReaction} = require('../../controllers/thought-controller');
-const {getUsers, getSingleUser, createUsers, deleteUser, updateUser} = require('../../controllers/user-controller');
-const {addFriend, deleteFriend} = require('../../controllers/user-controller');
+const {getThoughts, getSingleThought, createThought, deleteThought, updateThought} = require('../control/controllers');
+const {createReaction, deleteReaction} = require('../control/controllers');
+const {getUsers, getSingleUser, createUsers, deleteUser, updateUser} = require('../control/controllers');
+const {addFriend, deleteFriend} = require('../control/controllers');
 
 
 // Modularize later? Folders causing issues with API connection
