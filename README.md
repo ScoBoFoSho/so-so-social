@@ -2,6 +2,7 @@
 # So So Social
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) 
 
+[Walkthrough video with code](https://drive.google.com/file/d/1SDcQzuyFV1ZmdqVGjkZXN_3GRd8DFqmq/view)
 
 
 ## Table of Contents
