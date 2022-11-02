@@ -131,3 +131,5 @@ UserSchema.virtual('friendCount').get(function() {
 //create the user model based on the schema
 const User = model('User', UserSchema)
 
+module.export = User;
+module.export = Thought; 
