@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true}));
 app.use(express.static("public"));
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/so-so-social",
+  process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/sososocial",
   {
     // useFindAndModify: false,
     useNewUrlParser: true,
